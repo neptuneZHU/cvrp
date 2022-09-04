@@ -6,13 +6,13 @@
  */
 
 #include "cvrp/local_search_inter_intra.hpp"
-
 #include <iostream>
 #include <limits>
 #include <numeric>
 
 constexpr double margin_of_error = 0.00001;
 
+//local search settings
 LocalSearchInterIntraSolution::LocalSearchInterIntraSolution(
     const std::vector<Node> &nodes, const std::vector<Vehicle> &vehicles,
     const std::vector<std::vector<double>> &distanceMatrix)
