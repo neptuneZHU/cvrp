@@ -5,7 +5,6 @@
  */
 
 #include "cvrp/genetic_algorithm.hpp"
-
 #include <algorithm>
 #include <iostream>
 #include <random>
